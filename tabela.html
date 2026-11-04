@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+   <!-- Adicionei um estilo simples para a borda aparecer em ambas as tabelas -->
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Tabela</h1>
+    <table border="1">  <!--table é a tabela; tr é a linha e th é o título da coluna -->
+        <tr> <th>Nome</th> <th>Idade</th> </tr> 
+        
+        <!-- td é a célula da tabela -->
+        <tr><td>Brenda</td>  <td>31 anos</td> </tr>  
+        <tr><td>Ubirajara</td>  <td>36 anos</td> </tr>
+        <tr><td>Brendon</td>  <td>28 anos</td> </tr>
+        <tr><td>Henrique</td>  <td>33 anos</td> </tr>
+
+    </table>
+    
+ <hr>
+
+    <h2>Tabela 2</h2>
+    <table border="1"> <!-- Faltava abrir a tag table aqui -->
+        <caption>Tabela com Mesclagem</caption> <!-- O caption fica logo após a abertura da table -->
+        <thead>
+            <tr> 
+                <th>Coluna A</th> <!-- Removido o > extra que estava quebrando a tag -->
+                <th>Coluna B</th> 
+                <th>Coluna C</th>
+            </tr>
+        </thead>
+   
+        <tbody>
+            <tr> <td>Célula 1</td> <td>Célula 2</td> <td>Célula 3</td> </tr> <!-- Corrigido as tags td -->
+            <tr> <td>Célula 4</td> <td>Célula 5</td> <td>Célula 6</td> </tr>
+            <tr> <td>Célula 7</td> <td>Célula 8</td> <td>Célula 9</td> </tr>
+        </tbody>
+    </table> <!-- Fechamento correto da tabela -->
+
+</body>
+</html>
